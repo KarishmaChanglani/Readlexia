@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head><title>Readlexia</title></head>
+<script src="jquery-2.2.4.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="ocrad/ocrad.js"></script>
+<body>
+<div class="container">
+<div class="page-header">
+  <h1>Readlexia</h1>
+</div>
+<div class="col-md-8" >
+<div class="row" >
+	<div class="col-md-8">
+		<h4> Select the font you want as your default font for all web pages. To disable font change select N/A: </h4>
+	</div>
+</div>
+</br>
+<div class="row">
+	<div class="col-md-6" >
+	<div class="dropdown">
+	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	N/A<span class="caret"> </span>
+	</button>
+	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+		<li><a href="#">Arial</a></li>
+		<li><a href="#">Helvetica</a></li>
+		<li><a href="#">Open Dyslexic</a></li>
+		<li><a href="#">Verdana</a></li>
+		<li><a href="#">Comic Sans MS</a></li>
+		<li role="separator" class="divider"></li>
+		<li><a href="#">N/A</a></li>
+	</ul>
+	</div>
+	</br>
+	<div class="font-example" style="font-family:Time New Roman;">
+		<h4><i>Italic Example</i><h3>
+		<h4><b>Bold Example</b><h3>
+		<h4><u>Underline Example</u><h3>
+	</div>
+	</div>
+	<div class="col-md-6" >
+	<div class="someDiv" style="display:none">
+		</div>
+		<img class="image" src="demo.jpg" width="300px"/>
+	</div>
+</div>
+</br>
+  <div class="row">
+    <div class="col-md-6">
+	<div class="checkbox disabled">
+  <label font-size="16px">
+    <input type="checkbox" value="" id="image2text" >
+    Image to text conversion
+  </label>
+</div>
+  </div>
+</div>
+</div>
+</div>
+<script src="options.js"></script>
+</body>
+</html>
